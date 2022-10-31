@@ -3,7 +3,7 @@ on:
   push:
   pull_request:
     branches:
-      - includeCI
+      - master
 jobs:
   test-ci-job:
     runs-on: ubuntu-latest
