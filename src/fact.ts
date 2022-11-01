@@ -1,6 +1,7 @@
 import { FACT } from "./constants";
 import { getFact } from "./requests";
 import { FactDefinition } from "./types";
+//example
 
 export const validateLenght = async (): Promise<boolean> => {
   try {
