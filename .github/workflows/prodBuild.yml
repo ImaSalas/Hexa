@@ -2,7 +2,7 @@ name: Production Build test
 on:
   pull_request:
     branches:
-      - includeCI
+      - master
 jobs:
   Test Build:
     runs-on: ubuntu-latest
